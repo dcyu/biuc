@@ -1,0 +1,59 @@
+$sans: "Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", "Trebuchet MS", sans-serif
+$arial: Arial, Helvetica, sans-serif
+
+
+$base_color_dark: #1240AB
+$base_color_medium: #6C8CD5
+$base_color_light: #F0F4FB
+$accent_color_dark: complement($base_color_dark)
+$accent_color_medium: complement($base_color_medium)
+$accent_color_light: complement($base_color_light)
+
+html
+  height: 100%
+
+a
+  text-decoration: none
+  color: $base_color_dark
+  &:hover
+    color: $accent_color_dark
+
+
+body 
+  position: absolute
+  top: 0
+  font-family: $sans
+  font-size: 120%
+  height: 100%
+  width: 100%
+  background-color: $base_color_light
+  
+h1, h2, h3, h4, h5, h6
+  line-height: 1.3em
+
+h1
+  font-size: 3em
+
+h2
+  font-size: 2em
+
+img
+  border: 0px
+
+input
+  display: block
+  margin: 1em 0
+  +border-radius(5px)
+  padding: 0.2em
+  &[type=checkbox]
+    display: inline-block
+p
+  font-size: 1em
+  line-height: 1.3em
+  margin: 0
+  padding: 0 0 1em 0
+
+ul
+  list-style-type: none
+
+

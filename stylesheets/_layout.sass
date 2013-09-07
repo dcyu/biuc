@@ -1,0 +1,125 @@
+// nav
+.l-logo
+  padding: 0
+  margin: 0
+  float: left
+  background-color: scale-lightness($base_color_dark, -30%)
+
+.l-page-header
+  position: fixed
+  top: 0
+  width: 100%
+  background-color: $base_color_dark
+  z-index: 30
+  +box-shadow(0 0 5px #000)
+  span
+    color: #fff
+    margin: 0 10px
+    line-height: 46px
+
+.l-nav
+  background-color: #1240AB
+  z-index: 20
+  ul
+    list-style-type: none
+    margin: 0
+    padding: 0
+    float: right
+    background-color: #6C8CD5
+    .l-sign-out-btn
+      width: 100px
+      padding: 0
+      margin: 0
+    .l-user-name-btn
+      width: 200px
+      padding: 0
+      margin: 0
+    li
+      display: inline-block
+      text-align: center
+      float: left
+      margin: 0
+      padding: 0 10px
+      +transition(0.2s)
+      &:nth-child(1)
+        background-color: scale-lightness($base_color_dark, 40%)
+      &:nth-child(2)
+        background-color: scale-lightness($base_color_dark, 55%)
+      &:nth-child(3)
+        background-color: scale-lightness($base_color_dark, 70%)
+      &:nth-child(4)
+        background-color: scale-lightness($base_color_dark, 85%)
+      &:hover
+        background-color: #fff
+      a
+        text-decoration: none
+        margin: 0
+        padding: 0
+        color: #000
+        line-height: 44px
+        font-size: 0.8em
+        font-weight: bold
+
+
+// dashboard
+
+.l-dashboard
+  position: absolute
+  left: 50px
+  right: 400px
+  // width: 500px
+  top: 50px
+  font-family: $arial
+
+.l-timeline
+  position: absolute
+  right: 0
+  top: 43px
+  width: 300px
+  background: scale-lightness($base_color_medium, 70%)
+  display: inline-block
+  font-family: $arial
+  z-index: 5
+  +box-shadow(0 0 2px #000)
+  nav
+    margin-left: 20px
+
+// main
+.l-container
+  width: 90%
+  margin: 0 auto
+  padding-top: 30px
+  text-align: left
+  &.l-article
+    width: 960px
+  &.l-feature
+    text-align: center
+    padding: 1em 0
+    position: relative
+    top: 20%
+    border-bottom: 0.2em solid $accent_color_medium
+
+.l-main
+  width: 100%
+  height: 100%
+  position: relative
+
+.l-sponsors
+  width: 100%
+  margin: 0 auto
+
+
+.l-wrapper
+  width: 100%
+  min-height: 50%
+  height: auto
+  text-align: center
+  &.l-feature
+    height: 70%
+    padding: 0
+  &.l-sponsors
+    min-height: 30%
+    height: 30%
+    padding: 0
+
+

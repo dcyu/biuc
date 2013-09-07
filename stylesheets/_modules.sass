@@ -1,0 +1,89 @@
+// nav
+
+.logo-img
+  height: 30px
+  margin: 5px 20px
+
+
+// sign-in
+
+.sign-in
+  padding-top: 100px
+
+// dashboard
+
+.dashboard-header
+  font-family: $sans
+
+.clinic-name
+  background-color: scale-lightness(green, 60%)
+  color: #000
+  text-align: center
+  display: block
+  padding: 0.5em 0
+  margin: 0 0 1em 0
+  &.problem
+    background-color: scale-lightness(red, 40%)
+
+
+.clinic-list
+  .all-drugs
+    // margin-bottom: 1em
+    display: none
+    li  
+      background-color: $base_color_medium
+      padding: 0.5em 50px 0.5em 50px
+      margin: 0 0 0.5em 0
+    .low-quota
+      background-color: orange 
+    .drug-chart
+      height: 500px
+
+table
+  font-family: $arial
+
+.timeline-days
+  .timeline-day
+    margin-top: 1em
+    li
+      margin-top: 0.5em
+
+// main
+
+.featured-logo
+  width: 600px
+  margin-right: 20px
+  // padding-top: 120px
+  +box-shadow(0 10px 10px -11px #000)
+  display: inline
+
+.featured-subtitle
+  display: inline
+  font-family: $sans
+  line-height: 2em
+
+.sponsor-logo
+  height: 50px
+  margin: 0 20px 20px 20px
+
+.title
+  margin: 0
+  padding: 1em 0
+  text-align: center
+
+@keyframes pulsate
+  0%
+    +box-shadow(0, 4px, 4px, -2px, #000) 
+  50%
+    +box-shadow(0, 20px, 20px, -2px, #000) 
+  100%
+    +box-shadow(0, 4px, 4px, -2px, #000) 
+
+@-webkit-keyframes pulsate
+  0%
+    +box-shadow(0, 4px, 4px, -2px, #000) 
+  50%
+    +box-shadow(0, 20px, 20px, -2px, #000) 
+  100%
+    +box-shadow(0, 4px, 4px, -2px, #000) 
+

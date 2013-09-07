@@ -1,0 +1,47 @@
+// backgrounds
+.t-accent-gradient-background
+  +background-image(linear-gradient($base_color_light, $base_color_medium))
+
+.t-home-background
+  &:nth-child(1)
+    +background-image($base_color_light)
+    // background: scale-lightness($base_color_medium, 90%)
+  &:nth-child(2)
+    background: scale-lightness($base_color_medium, 80%)
+  &:nth-child(3)
+    background: scale-lightness($base_color_medium, 70%)
+  &:nth-child(4)
+    background: scale-lightness($base_color_medium, 60%)
+  &:nth-child(5)
+    background: scale-lightness($base_color_medium, 50%)
+  &:nth-child(6)
+    background: scale-lightness($base_color_medium, 40%)
+
+.t-clinic-bkg
+  background: url("clinic_alone.jpg")
+  background-size: cover
+  // firefox hide div border hack
+  position: relative
+  top: -1px
+
+.t-clinic-sky-bkg
+  background: url("clinicsky_bw.jpg")
+  background-size: contain
+
+.t-paper-bkg
+  background: url("paper_fibers.png")
+  min-height: 100%
+
+.t-team-bkg
+  background: url("team.jpg")
+  background-size: cover
+  height: 100%
+  .l-article
+    color: #fff
+    background: rgba(0,0,0,0.8)
+    width: 100%
+    padding-bottom: 20px
+    h2, p
+      width: 960px
+      margin: 0 auto
+
