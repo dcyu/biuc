@@ -2,19 +2,19 @@
 %html{:lang => "en"}
   %head
     %meta{:charset => "utf-8"}
-      %title= @title
+      %title Built in UChicago
       %link{:href => "/stylesheets/application.css", :rel => "stylesheet"}
         /[if IE]
           <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      %link{:href => "//identity.uchicago.edu/c/fonts/proximanova.css", :rel => "stylesheet"}
+      = javascript_include_tag "jquery-1.10.2.min.js"
+      = javascript_include_tag "application.js"
+
   %body
-    %header{:role => "banner"}
+    %header.l-header{:role => "banner"}
+      .l-banner
+        %h1 Built In UChicago
+        %h2 Think. Design. Code. Do.
     = yield
-    %footer
-      %small
-        %p
-          Serve is copyright © 2007-2011 John W. Long and Adam I. Williams. Portions have
-          been contributed by Robert Evans and others. Serve is distributed under a MIT-style
-          license and is open source software. Enjoy!
-        %p
-          Questions?
-          %a{:href => "http://get-serve.com/mailing-list"} Join the  mailing list.
+
+

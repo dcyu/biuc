@@ -1,47 +1,61 @@
-- @title = "Built in UChicago"
+.l-wrapper.aerial_view
+  %article.feature
+    %h2 What is Built In UChicago?
+    %p
+      %span.maroon  
+        Built In UChicago (BIUC) 
+      is an exclusive new program launching in Fall 2013 under the direction of UChicago Careers in Entrepreneurship. BIUC aims to connect students with backgrounds in user experience, design, code, and engineering to create campus community for students with complementary skillsets to collaborate with each other to build student-led projects.
+      %a.about-link{:href => "#about"} 
+        Learn more →
 
-%dl
-  %dt
-    %strong Views &amp; Layouts
-  %dd
-    Your views are stored in the
-    %kbd views
-    folder. Coming from a page-based
-    scripting language like Poo? Views are just like regular pages. The main layout
-    file for this project is stored in
-    = succeed "." do
-      %kbd layouts/default
-  %dt
-    %strong Stylesheets, Sass &amp; Compass
-  %dd
-    This project is pre-configured for
-    %a{:href => "http://sass-lang.com"} Sass
-    and
-    = succeed "." do
-      %a{:href => "http://compass-style.org"} Compass
-    Store your
-    %kbd sass
-    and
-    %kbd scss
-    files in the root
-    %kbd stylesheets
-    folder. Sass
-    stylesheets will be automatically compiled to CSS and stored in
-    = succeed "." do
-      %kbd public/stylesheets
-  %dt
-    %strong Static Assets
-  %dd
-    Static assets like images, javascripts, and downloads are stored in the
-    %kbd public
-    folder. Put files here that don’t need special
-    processing by Serve.
-.box
-  %h6 Other Template Languages
-  %p
-    If you are interested in using Serve with other template languages like Haml,
-    Slim, Markdown, or Textile, remember to edit the project
-    %kbd Gemfile
-    to include the appropriate gems. Then use
-    %a{:href => "http://gembundler.com/"} Bundler
-    to install them.
+
+.l-wrapper.paper#about
+  
+  .l-container
+    %h2 Formulate
+    %p
+      Have an idea? Great. Now begin effectively fleshing out your idea using the latest in entrepreneurial thinking. Employ strategies to conduct market research and evaluate your value proposition to potential users. Learn from seasoned entrepreneurs and professors at the world-renown UChicago Booth School of Business. From there, move on and
+      %a.about-link{:href => "#build"} 
+        make it happen →
+
+.l-wrapper.notebook#build
+  
+  .l-container
+    %h2 Design/Code/Build
+    %p
+      Plans require execution. BIUC is a community of technically-skilled and entrepreneurial-minded students ready to collaborate in teams to build out their ideas. 
+    %p
+      Don't have technical skills but want to learn? BIUC provides resources (such as
+      %a{:href => "http://teamtreehouse.com/", target: "_blank"}
+        Team Treehouse
+      ) and mentorship to members learning technical skills.
+
+    %p
+      Once you've started building your idea, start thinking about the 
+      %a.about-link{:href => "#impact"} 
+        bigger picture →
+
+.l-wrapper.booth_ceiling#impact
+  
+  %article.feature
+    %h2 Make An Impact
+    %p
+      Think your idea could be a business? Get expert advice from winners of national entrepreneurship competitions and enter your team into the
+      %a{:href => "https://careeradvancement.uchicago.edu/entrepreneurship/innovation-competitions", target: "_blank"}
+        College New Venture Challenge
+      for the opportunity to win $10,000 to get your company going. 
+
+    %p
+      Ready to start?
+      %a{:href => "https://docs.google.com/forms/d/1MqsbAdaOIgUu230Ks33k1VMfidp7zv2P9t5zhfxmE0Q/viewform", target: "_blank"} 
+        Apply now.
+
+
+  %footer.l-footer
+    %h4 
+      © 2013 Built in UChicago | Website Designed & Coded by
+      %a{:href => "http://www.danielyu.me", target: "_blank"} 
+        Daniel Yu
+
+
+
