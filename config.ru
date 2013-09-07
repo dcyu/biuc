@@ -1,5 +1,3 @@
-#\ -p 4000
-
 web: bundle exec thin start -p $PORT
 
 require 'rubygems'
