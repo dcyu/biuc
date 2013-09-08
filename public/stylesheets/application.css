@@ -543,6 +543,30 @@ ul {
   width: auto;
 }
 
+#about img {
+  position: absolute;
+  right: -279px;
+  top: 280px;
+  height: 300px;
+  border: 2px solid black;
+  border-right: none;
+}
+#about p {
+  margin-right: 300px;
+}
+
+#build img {
+  position: absolute;
+  left: -454px;
+  top: 300px;
+  height: 300px;
+  border: 2px solid black;
+  border-left: none;
+}
+#build h2, #build p {
+  margin-left: 500px;
+}
+
 .maroon {
   color: maroon;
 }
