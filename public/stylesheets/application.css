@@ -450,7 +450,7 @@ ul {
   width: 50%;
   margin: 0 auto;
   z-index: 5;
-  border: 5px solid black;
+  border: 3px solid black;
   border-top: none;
 }
 .l-banner h1, .l-banner h2 {
