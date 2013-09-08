@@ -450,8 +450,11 @@ ul {
   width: 50%;
   margin: 0 auto;
   z-index: 5;
-  border: 3px solid black;
+  border: 1px solid black;
   border-top: none;
+  -webkit-box-shadow: 0 0 5px black;
+  -moz-box-shadow: 0 0 5px black;
+  box-shadow: 0 0 5px black;
 }
 .l-banner h1, .l-banner h2 {
   text-align: center;
@@ -550,8 +553,9 @@ ul {
   right: -279px;
   top: 280px;
   height: 300px;
-  border: 2px solid black;
-  border-right: none;
+  -webkit-box-shadow: 0 0 5px black;
+  -moz-box-shadow: 0 0 5px black;
+  box-shadow: 0 0 5px black;
 }
 #about p {
   margin-right: 300px;
@@ -562,8 +566,9 @@ ul {
   left: -454px;
   top: 300px;
   height: 300px;
-  border: 2px solid black;
-  border-left: none;
+  -webkit-box-shadow: 0 0 5px black;
+  -moz-box-shadow: 0 0 5px black;
+  box-shadow: 0 0 5px black;
 }
 #build h2, #build p {
   margin-left: 500px;
