@@ -387,7 +387,6 @@ body {
   font-size: 120%;
   height: 100%;
   width: 100%;
-  overflow: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -473,6 +472,7 @@ ul {
   padding-top: 250px;
   width: 90%;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .l-footer {
@@ -497,6 +497,7 @@ ul {
   z-index: 0;
   margin: 0;
   background: repeat;
+  overflow: hidden;
 }
 .l-wrapper.aerial_view {
   background: url("../images/harper_library.png");
