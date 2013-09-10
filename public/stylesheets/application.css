@@ -430,7 +430,11 @@ p {
 }
 
 ul {
-  list-style-type: none;
+  list-style-type: square;
+}
+
+li {
+  margin-bottom: 1em;
 }
 
 .l-header {
@@ -550,15 +554,15 @@ ul {
 
 #about img {
   position: absolute;
-  right: -279px;
+  right: -450px;
   top: 280px;
   height: 300px;
   -webkit-box-shadow: 0 0 5px black;
   -moz-box-shadow: 0 0 5px black;
   box-shadow: 0 0 5px black;
 }
-#about p {
-  margin-right: 300px;
+#about p, #about li {
+  margin-right: 500px;
 }
 
 #build img {
@@ -570,7 +574,7 @@ ul {
   -moz-box-shadow: 0 0 5px black;
   box-shadow: 0 0 5px black;
 }
-#build h2, #build p {
+#build h2, #build p, #build li {
   margin-left: 500px;
 }
 
