@@ -471,8 +471,10 @@ li {
 }
 .l-banner h2 {
   color: black;
+  text-shadow: 0 0 70px white;
   padding: 0.5em 0;
   font-family: "ProximaNova-SemiBold", Helvetica, sans-serif;
+  display: block;
 }
 
 .l-container {
