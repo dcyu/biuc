@@ -7,6 +7,7 @@
         /[if IE]
           <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
       %link{:href => "//identity.uchicago.edu/c/fonts/proximanova.css", :rel => "stylesheet"}
+      %link{:href => "/images/BIUC.png", :rel => "shortcut icon", :type => "image/png"}/
       = javascript_include_tag "jquery-1.10.2.min.js"
       = javascript_include_tag "application.js"
 
@@ -18,3 +19,6 @@
     = yield
 
 
+    %footer.apply-now
+      %h2 
+        %a{:href => "https://docs.google.com/forms/d/1MqsbAdaOIgUu230Ks33k1VMfidp7zv2P9t5zhfxmE0Q/viewform", target: "_blank"} Apply by October 10th!

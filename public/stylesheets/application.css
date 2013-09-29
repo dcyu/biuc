@@ -523,6 +523,26 @@ li {
   background-size: cover;
 }
 
+.apply-now {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+.apply-now h2 {
+  width: 50%;
+  margin: 0 auto;
+  background: maroon;
+  text-align: center;
+  -webkit-box-shadow: black 0 0 2px;
+  -moz-box-shadow: black 0 0 2px;
+  box-shadow: black 0 0 2px;
+  font-size: 1.7em;
+  line-height: 1.75em;
+}
+.apply-now h2 a {
+  color: #d6d6ce;
+}
+
 .aside {
   float: left;
   max-width: 50%;
